@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:glroy;
+}
+@font-face {
+    font-family: glroy;
+    src: url(Gilroy-Medium.e7e7c091.ttf);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #947379;
+}
+#maintext{
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 99999;
+}
+#maintext h1{
+    white-space: nowrap;
+    font-size: 8vw;
+    font-weight: 100;
+    line-height: 1;
+}
+#maintext h3{
+    white-space: nowrap;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+}
+#left{
+    pointer-events: none;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: #947379;
+    overflow: hidden;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 50px 60px;
+    gap: 100px;
+    align-items: center;
+}
+#nav h3{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+#nav a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+#leftcenterimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 55%;
+    background-image: url(attractive-bangs-beautiful-1986370.jpeg);
+    background-size: cover;
+}
+#leftcenterimg #text{
+    position: absolute;
+    display: flex;
+    top: 110%;
+    width: 100%;
+    color: #fff;
+}
+#text #parts{
+    width:30%;
+}
+#parts h5{
+   margin-bottom:20px;
+}
+#text #para{
+    width:70%;
+    font-size: 10px;
+    line-height: 20px;
+}
+#scroll{
+    position: absolute;
+    bottom: -10px;
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#scroll #line{
+    width: 150px;
+    height: 2px;
+    background-color: white;
+}
+#scroll h4{
+   text-transform: uppercase;
+   color: white;
+   letter-spacing: 10px;
+   font-size: 10px;
+}
+
+
+#center{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-color: green;
+    background-image: url(images.jpeg);
+    background-size: cover;
+}
+#center .fluid{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+     bottom: 5%;
+     display: flex;
+     right:-10%;
+}
+.fluid .icon{
+    width:30%;
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+    gap: 20px;
+    line-height: 55px;
+}
+.icon i{
+    padding-left: 19px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.fluid .imag{
+    height: 100%;
+    width: 70%;
+    background-image: url(Screenshot\ \(3\).png);
+    background-size: cover;
+  
+}
+
+
+#end{
+    height: 70%;
+    width: 7%;
+    background-color: #947379;
+}
+
+#relem{
+
+    padding: 30px 0px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#relem #links{
+
+    transform:translateY(-190px) rotate(90deg);
+    display: flex;
+    gap: 20px;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
